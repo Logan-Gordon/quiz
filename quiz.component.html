@@ -1,0 +1,60 @@
+<div>
+    <hr>
+    <div>
+        <form #userRef="ngForm">
+            <div *ngFor="let qq of quizInfo; let qNum = index">
+                <h3>{{qNum + 1}}. {{qq.question}}</h3>
+                <div>
+                    <input type="radio" name="{{qNum}}" ngModel #aRef="ngModel" (click)="recordAnswer(qNum, 'a', qq.correct)" [disabled]="isEnabled" value="a" id="a">
+                    <label>{{qq.aAnswer}}  </label><br/>
+                    <!-- <div *ngIf="submitRef.touched">
+                        <span [hidden]="!qq.correct =='a'" style="background-color: chartreuse;">
+                            Correct Answer<br/>
+                        </span>
+                        <span [hidden]="!aRef.touched && qq.correct =='a' " style="background-color: rgb(170, 12, 20);">
+                            Incorrect<br/>
+                        </span> 
+                    </div> -->
+                </div>
+                <div>
+                    <input type="radio" name="{{qNum}}" ngModel #bRef="ngModel" (click)="recordAnswer(qNum, 'b', qq.correct)" [disabled]="isEnabled" value="b" id="b">
+                    <label>{{qq.bAnswer}}  </label><br/>
+                    <!-- <div *ngIf="submitRef.touched">
+                        <span [hidden]="!qq.correct =='b'" style="background-color: chartreuse;">
+                            Correct Answer<br/>
+                        </span>
+                        <span [hidden]="!bRef.touched && qq.correct =='b' " style="background-color: rgb(170, 12, 20);">
+                            Incorrect<br/>
+                        </span>
+                    </div> -->
+                </div>
+                <div>
+                    <input type="radio" name="{{qNum}}" ngModel #cRef="ngModel" (click)="recordAnswer(qNum, 'c', qq.correct)" [disabled]="isEnabled" value="c" id="c">
+                    <label>{{qq.cAnswer}}  </label><br/>
+                    <!-- <div *ngIf="submitRef.touched">
+                        <span [hidden]="!qq.correct =='c'" style="background-color: chartreuse;">
+                            Correct Answer<br/>
+                        </span>
+                        <span [hidden]="!cRef.touched && qq.correct =='c' " style="background-color: rgb(170, 12, 20);">
+                            Incorrect<br/>
+                        </span>
+                    </div> -->
+                </div>
+                <div>
+                    <input type="radio" name="{{qNum}} " ngModel #dRef="ngModel" (click)="recordAnswer(qNum, 'd', qq.correct) " [disabled]="isEnabled" value="d " id="d ">
+                    <label>{{qq.dAnswer}}</label><br/>
+                    <!-- <div *ngIf="submitRef.touched">
+                        <span [hidden]="!qq.correct =='d'" style="background-color: chartreuse;">
+                            Correct Answer<br/>
+                        </span>
+                        <span [hidden]="!dRef.touched && qq.correct =='d' " style="background-color: rgb(170, 12, 20);">
+                            Incorrect<br/>
+                        </span>
+                    </div> -->
+                </div>
+            </div>
+            <hr>
+            <input type="button" value="Submit" (click)="submitQuiz()" />
+        </form>
+    </div>
+</div>

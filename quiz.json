@@ -1,0 +1,83 @@
+{
+    "quiz": [{
+            "question": "Trying to get kids to eat Vegetables, McDonalds tested making broccoli what flavor?",
+            "aAnswer": "Bubblegum",
+            "bAnswer": "Chocolate",
+            "cAnswer": "French Fry",
+            "dAnswer": "Chicken",
+            "correct": "a"
+        },
+        {
+            "question": "What was the first name for Penicillin?",
+            "aAnswer": "Bactine",
+            "bAnswer": "AntiBac",
+            "cAnswer": "Mold Juice",
+            "dAnswer": "Spore Helper",
+            "correct": "c"
+        },
+        {
+            "question": "Which animal has the most neck bones?",
+            "aAnswer": "Human",
+            "bAnswer": "Sloth",
+            "cAnswer": "Giraffe",
+            "dAnswer": "Bowhead Whale",
+            "correct": "b"
+        },
+        {
+            "question": "Which of the following isn't a berry?",
+            "aAnswer": "Pineapple",
+            "bAnswer": "Orange",
+            "cAnswer": "Pear",
+            "dAnswer": "Watermelon",
+            "correct": "c"
+        },
+        {
+            "question": "What was the orginal purpose for which the chainsaw was created?",
+            "aAnswer": "A tool to aid in childbirth",
+            "bAnswer": "A weapon of war",
+            "cAnswer": "A tool to find stones while digging",
+            "dAnswer": "A tool to create sawdust for paper production",
+            "correct": "a"
+        },
+        {
+            "question": "There is a version of Rugby that is played underwater, what is its name?",
+            "aAnswer": "Aquascrum",
+            "bAnswer": "Underwater Rugby",
+            "cAnswer": "Poolball",
+            "dAnswer": "German Rugby",
+            "correct": "b"
+        },
+        {
+            "question": "Which of these foods is in the same family as Lettuce?",
+            "aAnswer": "Kale",
+            "bAnswer": "Eggplant",
+            "cAnswer": "Cabbage",
+            "dAnswer": "Sunflower",
+            "correct": "d"
+        },
+        {
+            "question": "How many eyes does a butterfly have?",
+            "aAnswer": "2",
+            "bAnswer": "8",
+            "cAnswer": "100",
+            "dAnswer": "12,000",
+            "correct": "d"
+        },
+        {
+            "question": "What are the Canary Islands named after?",
+            "aAnswer": "Birds",
+            "bAnswer": "Cats",
+            "cAnswer": "Dogs",
+            "dAnswer": "Fish",
+            "correct": "c"
+        },
+        {
+            "question": "What is the national animal of Scotland?",
+            "aAnswer": "Badger",
+            "bAnswer": "Cod",
+            "cAnswer": "Lion",
+            "dAnswer": "Unicorn",
+            "correct": "d"
+        }
+    ]
+}
